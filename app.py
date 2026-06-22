@@ -26,7 +26,7 @@ class PumpkinData(BaseModel):
 def home():
 
     return {
-        "message":"Pumpkin Seed Classifier API"
+        "message":"Pumpkin Seed Classifier API version 2"
     }
 
 @app.post("/predict")
